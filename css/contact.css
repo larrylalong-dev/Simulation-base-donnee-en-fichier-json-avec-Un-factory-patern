@@ -1,0 +1,105 @@
+.contact_button {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    padding: 11px;
+    width: 170px;
+    height: 70px;
+    border: none;
+    background-color: #901C1C;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact_button:hover,
+.contact_button:focus {
+    background-color: #D3573C;
+    color: black;
+}
+
+.modalOverlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #FAFAFA;
+    overflow: auto;
+    z-index: 2;
+}
+
+.modal {
+    border-radius: 5px;
+    background-color: #DB8876;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 35px;
+    margin: 50px auto;
+    filter: drop-shadow(-5px 10px 30px rgba(0, 0, 0, 0.25));
+}
+
+#modal-close {
+    cursor: pointer;
+}
+
+.modal header {
+    justify-content: space-between;
+    width: 100%;
+    height: unset;
+    padding: 0;
+}
+
+.modal header h1 {
+    color: black;
+    font-size: 64px;
+    font-weight: normal;
+}
+
+form {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+form label {
+    color: #312E2E;
+    font-size: 36px;
+}
+
+form div {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: self-start;
+    margin-bottom: 26px;
+}
+
+form input,
+form textarea {
+    border-radius: 5px;
+    border: 1px solid #737373;
+    font-size: 36px;
+    padding-left: 20px;
+}
+
+form input::placeholder,
+form textarea::placeholder {
+    opacity: 0.3;
+}
+
+form input {
+    width: 100%;
+    height: 68px;
+    outline: none;
+}
+
+form textarea {
+    width: 100%;
+    resize: vertical;
+    min-height: 150px;
+    margin-bottom: 25px;
+}

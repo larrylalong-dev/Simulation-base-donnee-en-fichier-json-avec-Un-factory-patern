@@ -1,0 +1,45 @@
+#lightbox {
+    top: 0;
+    left: 0;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    z-index: 2;
+}
+
+.lightboxClose {
+    top: 45px;
+    position: absolute;
+    right: 30px;
+}
+
+#lightboxLeft {
+    position: absolute;
+    top: 50%;
+    left: 30px;
+}
+
+#lightboxRight {
+    position: absolute;
+    top: 50%;
+    right: 30px;
+}
+
+.lightboxContent {
+    margin: 50px auto;
+    width: 70vw;
+    height: 100vh;
+}
+
+.lightboxContent img, video {
+    width: 100%;
+    height: 80%;
+    border-radius: 5px;
+    object-fit: contain;
+}
+
+.lightboxContent h3 {
+    font-size: 24px;
+    color: #901C1C;
+}

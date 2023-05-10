@@ -1,0 +1,51 @@
+.sortMedias {
+    margin: 0 100px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.dropdown {
+    background-color: #911C1C;
+    border-radius: 5px;
+    width: 170px;
+    text-align: initial;
+    height: 45px;
+    margin: 25px;
+    padding-left: 20px;
+    color: white;
+    font-weight: 700;
+    background-image: url("../assets/icons/dropdown_down.svg");
+    background-position: 140px;
+    background-repeat: no-repeat;
+    font-size: 18px;
+    border: none;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    top: 65px;
+    z-index: 1;
+    list-style: none;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 40px;
+    background: #911C1C;
+    color: white;
+    width: 170px;
+    margin: 0;
+    padding: 5px 10px 0px 10px;
+    border-radius: 0px 0px 5px 5px;
+    left: 94px;
+}
+
+.sortOption {
+    border-top: 1px solid white;
+    height: 45px;
+    padding-left: 10px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
