@@ -1,4 +1,4 @@
-# Simulation d'une base de donnée en fichier json avec Un factory paternLancement en local
+# Simulation d'une base de donnée en fichier json avec Un factory patern Lancement en local
 
 Utilisez l'extension LiveServer sur VSCode puis lancez le serveur grâce au bouton "Go Live"
 
