@@ -46,6 +46,4 @@ Utilisez l'extension LiveServer sur VSCode puis lancez le serveur grâce au bout
 - Le code est séparé en différents fichiers (HTML, CSS, JavaScript).
 - ESLint est utilisé (avec les paramètres par défaut) pour garantir que le code est robuste. Ceci est particulièrement facile à intégrer avec l'IDE VSCode.
 - Une version moderne (ES6 ou supérieure) de JavaScript est utilisée et les fonctionnalités obsolètes ne sont pas utilisées.
-- Le code est lisible. Il faudra s'assurer que les variables et fonctions ont un nom qui ont un sens, et commenter le code lorsque le nom n'indique pas explicitement ce qu'il se passe#� �S�i�m�u�l�a�t�i�o�n�-�b�a�s�e�-�d�o�n�n�e�e�-�e�n�-�f�i�c�h�i�e�r�-�j�s�o�n�-�a�v�e�c�-�U�n�-�f�a�c�t�o�r�y�-�p�a�t�e�r�n�
-  �
-  �
+- Le code est lisible. Il faudra s'assurer que les variables et fonctions ont un nom qui ont un sens, et commenter le code lorsque le nom n'indique pas explicitement ce qu'il se passe
